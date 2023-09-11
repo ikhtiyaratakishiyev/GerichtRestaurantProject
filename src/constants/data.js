@@ -1,32 +1,33 @@
 import images from './images';
 
-const drinks = [
+const wines = [
   {
-    title: 'Coca Cola',
-    price: '$2',
+    title: 'Chapel Hill Shiraz',
+    price: '$56',
     tags: 'AU | Bottle',
   },
   {
-    title: 'Sprite',
-    price: '$3',
+    title: 'Catena Malbee',
+    price: '$59',
     tags: 'AU | Bottle',
   },
   {
-    title: 'Pepsi',
-    price: '$2',
+    title: 'La Vieillw Rose',
+    price: '$44',
     tags: 'FR | 750 ml',
   },
   {
-    title: 'Fuse Tea',
-    price: '$1',
+    title: 'Rhino Pale Ale',
+    price: '$31',
     tags: 'CA | 750 ml',
   },
   {
-    title: 'Nescafe Gold',
-    price: '$4',
+    title: 'Irish Guinness',
+    price: '$26',
     tags: 'IE | 750 ml',
   },
 ];
+
 
 const cocktails = [
   {
@@ -79,4 +80,4 @@ const awards = [
   },
 ];
 
-export default { drinks, cocktails, awards };
+export default { wines, cocktails, awards };
